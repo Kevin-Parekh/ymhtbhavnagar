@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="gu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YMHT ભાવનગર – Young Mahatma</title>
+  <meta name="description"
+    content="YMHT ભાવનગર – દાદા ભગવાન ટ્રસ્ટ, અડાલજ ની ભાવનગર શાખા. ૧૩–૨૧ વર્ષના ભાઈઓ માટે આધ્યાત્મિક યુવા જૂથ." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;500;600;700&family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- ===== FLOATING WHATSAPP ===== -->
+  <a href="https://wa.me/919687978381" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+    </svg>
+    <span class="wa-float-label" data-i18n="wa.float">વૉટ્સએપ</span>
+  </a>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">
+        <div class="logo-icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <circle cx="20" cy="20" r="20" fill="#FF6B00" />
+            <path d="M20 8 L24 14 H28 L24 20 H28 L20 32 L12 20 H16 L12 14 H16 Z" fill="white" opacity="0.92" />
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-main">YMHT ભાવનગર</span>
+          <span class="logo-sub" data-i18n="logo.sub">યંગ મહાત્મા</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link" data-i18n="nav.about">અમારા વિશે</a></li>
+          <li><a href="#sessions" class="nav-link" data-i18n="nav.sessions">સત્સંગ</a></li>
+          <li><a href="#seva" class="nav-link" data-i18n="nav.seva">સેવા</a></li>
+          <li><a href="#activities" class="nav-link" data-i18n="nav.activities">પ્રવૃત્તિઓ</a></li>
+          <li><a href="#join" class="nav-link" data-i18n="nav.join">જોડાઓ</a></li>
+          <li><a href="#contact" class="nav-link nav-cta" data-i18n="nav.contact">સંપર્ક</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-right">
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="gu">ગુ</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== TOP BANNER ===== -->
+  <div class="top-banner" data-i18n-html="banner">
+    <p data-i18n="banner.text">એક વાર કૉલ કરી YMHT Boys માં થતી પ્રવૃત્તિઓ વિશે અવશ્ય જાણો. બાળકના સર્વાંગી વિકાસ માટે — એક સેશન અવશ્ય એટેન્ડ કરો. સંપર્ક: પરેશભાઈ.</p>
+    <a href="tel:+919687978381" class="banner-contact">📞 9687978381</a>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <!-- Mandala SVG -->
+      <svg class="hero-mandala" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(250,250)">
+          <!-- Outer ring -->
+          <circle r="240" stroke="rgba(255,179,71,0.12)" stroke-width="1" />
+          <circle r="200" stroke="rgba(255,179,71,0.15)" stroke-width="1" />
+          <circle r="160" stroke="rgba(255,107,0,0.12)" stroke-width="1" />
+          <!-- 12 outer petals -->
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,179,71,0.18)" transform="rotate(0)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,107,0,0.14)" transform="rotate(30)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,179,71,0.18)" transform="rotate(60)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,107,0,0.14)" transform="rotate(90)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,179,71,0.18)" transform="rotate(120)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,107,0,0.14)" transform="rotate(150)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,179,71,0.18)" transform="rotate(180)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,107,0,0.14)" transform="rotate(210)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,179,71,0.18)" transform="rotate(240)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,107,0,0.14)" transform="rotate(270)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,179,71,0.18)" transform="rotate(300)" />
+          <ellipse cx="0" cy="-180" rx="18" ry="52" fill="rgba(255,107,0,0.14)" transform="rotate(330)" />
+          <!-- 8 inner petals -->
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,179,71,0.22)" transform="rotate(0)" />
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,107,0,0.18)" transform="rotate(45)" />
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,179,71,0.22)" transform="rotate(90)" />
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,107,0,0.18)" transform="rotate(135)" />
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,179,71,0.22)" transform="rotate(180)" />
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,107,0,0.18)" transform="rotate(225)" />
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,179,71,0.22)" transform="rotate(270)" />
+          <ellipse cx="0" cy="-110" rx="22" ry="58" fill="rgba(255,107,0,0.18)" transform="rotate(315)" />
+          <!-- Center circles -->
+          <circle r="62" fill="rgba(255,107,0,0.28)" />
+          <circle r="42" fill="rgba(255,179,71,0.35)" />
+          <circle r="22" fill="rgba(255,255,255,0.45)" />
+          <!-- Dot accents -->
+          <circle cx="0" cy="-200" r="5" fill="rgba(255,179,71,0.5)" />
+          <circle cx="141" cy="-141" r="4" fill="rgba(255,179,71,0.4)" />
+          <circle cx="200" cy="0" r="5" fill="rgba(255,179,71,0.5)" />
+          <circle cx="141" cy="141" r="4" fill="rgba(255,179,71,0.4)" />
+          <circle cx="0" cy="200" r="5" fill="rgba(255,179,71,0.5)" />
+          <circle cx="-141" cy="141" r="4" fill="rgba(255,179,71,0.4)" />
+          <circle cx="-200" cy="0" r="5" fill="rgba(255,179,71,0.5)" />
+          <circle cx="-141" cy="-141" r="4" fill="rgba(255,179,71,0.4)" />
+        </g>
+      </svg>
+      <!-- Floating particles -->
+      <div class="particle p1"></div>
+      <div class="particle p2"></div>
+      <div class="particle p3"></div>
+      <div class="particle p4"></div>
+    </div>
+
+    <div class="container hero-content">
+      <span class="hero-badge" data-i18n="hero.badge">દાદા ભગવાન ટ્રસ્ટ, અડાલજ · YMHT ભાવનગર શાખા</span>
+      <h1 class="hero-title">
+        <span data-i18n="hero.title1">સાચી ખુશી</span><br />
+        <span class="hero-title-accent" data-i18n="hero.title2">અહીં મળે છે!</span>
+      </h1>
+      <p class="hero-desc" data-i18n="hero.desc">ભાવનગર, નારી અને આજુબાજુના ૧૩ થી ૨૧ વર્ષના દરેક ભાઈ — YMHT ભાવનગર સાથે
+        જોડાઈને, જિંદગી બદલી નાખો!</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/919687978381" target="_blank" rel="noopener" class="btn btn-wa"
+          data-i18n="hero.cta1">વૉટ્સએપ કરો</a>
+        <a href="tel:+919687978381" class="btn btn-call" data-i18n="hero.cta2">📞 કૉલ કરો</a>
+        <a href="#about" class="btn btn-outline" data-i18n="hero.cta3">વધારે જાણો ↓</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num" data-i18n="hero.s1n">૧૩–૨૧</span>
+          <span class="stat-lbl" data-i18n="hero.s1l">વર્ષ ઉંમર</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-i18n="hero.s2n">દર ૧૪ દિવસે</span>
+          <span class="stat-lbl" data-i18n="hero.s2l">રવિવારે સત્સંગ</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <span class="stat-num" data-i18n="hero.s3n">નિ:શુલ્ક</span>
+          <span class="stat-lbl" data-i18n="hero.s3l">ગમે ત્યારે જોડાઓ</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path d="M0,45 C240,90 480,0 720,45 C960,90 1200,0 1440,45 L1440,90 L0,90 Z" fill="#FDFAF6" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== WHY JOIN ===== -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="why.tag">YMHT કેમ?</span>
+        <h2 class="section-title" data-i18n="why.title">જિંદગીના સવાલોના<br />જવાબ અહીં છે!</h2>
+        <p class="section-desc" data-i18n="why.desc">૧૩ થી ૨૧ વર્ષના દરેક ભાઈ માટે YMHT ભાવનગરમાં સવાલોના જવાબ છે.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card why-orange">
+          <div class="why-icon">📚</div>
+          <h3 data-i18n="why.1t">📚 ભણતરમાં ટેન્શન?</h3>
+          <p data-i18n="why.1d">પરીક્ષાની બીક, ધ્યાન નથી લાગતું — સત્સંગમાં વ્યવહારુ ઉકેલ મળે છે.</p>
+          <div class="why-solve" data-i18n="why.1s">✓ ઉકેલ મળશે</div>
+        </div>
+        <div class="why-card why-purple">
+          <div class="why-icon">🏠</div>
+          <h3 data-i18n="why.2t">🏠 ઘરમાં ઝઘડા?</h3>
+          <p data-i18n="why.2d">માતા-પિતા સાથે તણાવ, સંબંધોમાં તકરાર — સાચી સમજ અને માર્ગદર્શન મળશે.</p>
+          <div class="why-solve" data-i18n="why.2s">✓ સમજ આવશે</div>
+        </div>
+        <div class="why-card why-green">
+          <div class="why-icon">😤</div>
+          <h3 data-i18n="why.3t">😤 ગુસ્સો કંટ્રોલ નથી થતો?</h3>
+          <p data-i18n="why.3d">ક્રોધ, ઈર્ષ્યા, નકારાત્મકતા — અક્રમ વિજ્ઞાનના જ્ઞાનથી આનો વ્યવહારુ ઉચ્છેદ થાય છે.</p>
+          <div class="why-solve" data-i18n="why.3s">✓ શાંતિ મળશે</div>
+        </div>
+        <div class="why-card why-blue">
+          <div class="why-icon">🤝</div>
+          <h3 data-i18n="why.4t">🤝 સાચા મિત્રો ક્યાં?</h3>
+          <p data-i18n="why.4d">YMHT માં સરખી ઉંમરના ભાઈઓ સાથે ક્રિકેટ, ઉત્સવ અને સાચ્ચો આનંદ!</p>
+          <div class="why-solve" data-i18n="why.4s">✓ ભાઈબંધી મળશે</div>
+        </div>
+      </div>
+      <div class="why-cta-bar">
+        <p data-i18n="why.cta.text">આમાંથી કંઈ <strong>તમારી વાત લાગે</strong> છે? — અત્યારે જ જોડાઓ. કોઈ ફી નહીં, કોઈ શરત નહીં.</p>
+        <a href="https://wa.me/919687978381" target="_blank" rel="noopener" class="btn btn-wa"
+          data-i18n="why.cta.btn">હા, હું જોડાવા માગું છું!</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="about.tag">અમે કોણ છીએ</span>
+        <h2 class="section-title" data-i18n="about.title">YMHT ભાવનગર વિશે</h2>
+      </div>
+      <div class="about-layout">
+        <div class="about-visual">
+          <div class="about-graphic">
+            <div class="ag-ring ag-ring1"></div>
+            <div class="ag-ring ag-ring2"></div>
+            <div class="ag-ring ag-ring3"></div>
+            <div class="ag-center">
+              <svg width="70" height="70" viewBox="0 0 40 40" fill="none">
+                <circle cx="20" cy="20" r="20" fill="#FF6B00" />
+                <path d="M20 8 L24 14 H28 L24 20 H28 L20 32 L12 20 H16 L12 14 H16 Z" fill="white" opacity="0.92" />
+              </svg>
+            </div>
+            <div class="ag-label ag-label1">🙏 સત્સંગ</div>
+            <div class="ag-label ag-label2">🏏 ક્રિકેટ</div>
+            <div class="ag-label ag-label3">⛺ કેમ્પ</div>
+            <div class="ag-label ag-label4">🎉 ઉત્સવ</div>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">🛕</div>
+            <div>
+              <strong data-i18n="about.trust.title">દાદા ભગવાન ટ્રસ્ટ</strong>
+              <span data-i18n="about.trust.loc">મુખ્યાલય: અડાલજ, ગુજરાત</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p data-i18n="about.p1"><strong>YMHT (યંગ મહાત્મા)</strong> એ <strong>દાદા ભગવાન ટ્રસ્ટ, અડાલજ</strong>ની
+            વૈશ્વિક યુવા પ્રવૃત્તિ છે. YMHT ભાવનગર, આ ટ્રસ્ટની અનેક શાખાઓ પૈકી એક સક્રિય ભાવનગર શાખા છે.</p>
+          <p data-i18n="about.p2">અક્રમ વિજ્ઞાન — આત્મ-સાક્ષાત્કારના વિજ્ઞાન — ના આધારે, ૧૩ થી ૨૧ વર્ષના ભાઈઓ ભેગા મળી
+            જિંદગીના સવાલોના જવાબ શોધે છે. ભણતર, સંબંધો, ગુસ્સો, કારકિર્દી — અનેક વિષય પર ખુલ્લી ચર્ચા.</p>
+          <p data-i18n="about.p3">ભાવનગર, નારી અને આજુબાજુના કોઈ પણ ભાઈ — કોઈ ફી નહીં, કોઈ શરત નહીં — ગમે ત્યારે જોડાઈ
+            શકે છે.</p>
+          <div class="about-values">
+            <div class="av-item"><span class="av-dot"></span><span data-i18n="av1">આત્મિક માર્ગદર્શન</span></div>
+            <div class="av-item"><span class="av-dot"></span><span data-i18n="av2">સાચ્ચો આનંદ અને મૈત્રી</span>
+            </div>
+            <div class="av-item"><span class="av-dot"></span><span data-i18n="av3">વ્યક્તિત્વનો વિકાસ</span></div>
+            <div class="av-item"><span class="av-dot"></span><span data-i18n="av4">સેવા અને સહકાર્ય</span></div>
+          </div>
+          <a href="#join" class="btn btn-primary" data-i18n="about.cta">કેવી રીતે જોડાશો? →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SESSIONS ===== -->
+  <section class="section" id="sessions">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="sess.tag">ક્યારે અને ક્યાં</span>
+        <h2 class="section-title" data-i18n="sess.title">YMHT સત્સંગ</h2>
+        <p class="section-desc" data-i18n="sess.desc">દર ૧૪ દિવસે, રવિવારે બપોરે ૨–૪ — જ્ઞાન, મજા અને ધૂળ-ઉડ!</p>
+      </div>
+
+      <div class="sess-schedule">
+        <div class="sess-card sess-orange">
+          <div class="sess-icon">📅</div>
+          <div class="sess-label" data-i18n="sess.1l">આવર્તન</div>
+          <div class="sess-val" data-i18n="sess.1v">દર ૧૪ દિવસે</div>
+          <div class="sess-sub" data-i18n="sess.1s">મહિનામાં બે વાર</div>
+        </div>
+        <div class="sess-card">
+          <div class="sess-icon">🕑</div>
+          <div class="sess-label" data-i18n="sess.2l">દિવસ અને સમય</div>
+          <div class="sess-val" data-i18n="sess.2v">રવિવાર</div>
+          <div class="sess-sub" data-i18n="sess.2s">બપોરે ૨:૦૦ – ૪:૦૦</div>
+        </div>
+        <div class="sess-card">
+          <div class="sess-icon">📍</div>
+          <div class="sess-label" data-i18n="sess.3l">જગ્યા</div>
+          <div class="sess-val" data-i18n="sess.3v">ભગિની મંડળ</div>
+          <div class="sess-sub" data-i18n="sess.3s">પારિમલ ચોક, ભાવનગર</div>
+        </div>
+      </div>
+
+      <div class="sess-inside">
+        <h3 class="sess-inside-title" data-i18n="sess.in.title">🎯 સેશનમાં શું થાય છે?</h3>
+        <div class="sess-items">
+          <div class="sess-item">
+            <div class="sess-item-icon">💬</div>
+            <div>
+              <strong data-i18n="si1t">સત્સંગ – જિંદગીના સવાલોના જવાબ</strong>
+              <p data-i18n="si1d">ગુસ્સો, ટેન્શન, સંબંધો, કારકિર્દી — ખુલ્લી અને ફ્રેન્ક ચર્ચા મહાત્માઓ સાથે.</p>
+            </div>
+          </div>
+          <div class="sess-item">
+            <div class="sess-item-icon">🎭</div>
+            <div>
+              <strong data-i18n="si2t">ડ્રામા અને રોલ-પ્લે</strong>
+              <p data-i18n="si2d">જીવનની પરિસ્થિતિઓ પર આધારિત નાટકો દ્વારા સમજ કેળવાય છે.</p>
+            </div>
+          </div>
+          <div class="sess-item">
+            <div class="sess-item-icon">🎮</div>
+            <div>
+              <strong data-i18n="si3t">ગ્રૂપ ગેમ્સ અને ફન એક્ટિવિટીઝ</strong>
+              <p data-i18n="si3d">એકબીજાને જોડવા માટે અને આનંદ માટે — દર સેશનમાં કંઈ ને કંઈ મજા!</p>
+            </div>
+          </div>
+          <div class="sess-item">
+            <div class="sess-item-icon">📖</div>
+            <div>
+              <strong data-i18n="si4t">જ્ઞાન – અક્રમ વિજ્ઞાનના સિદ્ધાંતો</strong>
+              <p data-i18n="si4d">સરળ અને રસપ્રદ રીતે આત્મ-જ્ઞાનની વાતો — જટિલ નથી, વ્યવહારુ છે!</p>
+            </div>
+          </div>
+          <div class="sess-item">
+            <div class="sess-item-icon">🗓️</div>
+            <div>
+              <strong data-i18n="si5t">આગળના ઇવેન્ટ્સનું પ્લાનિંગ</strong>
+              <p data-i18n="si5d">ઉનાળુ શિબિર, ક્રિકેટ મેચ, ઉત્સવ — સાથે મળીને નક્કી થાય છે.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sess-note">
+        <span>💡</span>
+        <p data-i18n="sess.note">આગલી સેશન ક્યારે છે તે જાણવા — અત્યારે વૉટ્સએપ કરો, તરત જવાબ મળશે!</p>
+        <a href="https://wa.me/919687978381" target="_blank" rel="noopener" class="btn btn-wa-sm"
+          data-i18n="sess.wa">વૉટ્સએપ કરો</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEVA ===== -->
+  <section class="section seva-section" id="seva">
+    <div class="seva-bg-pattern"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag section-tag-light" data-i18n="seva.tag">સેવા</span>
+        <h2 class="section-title section-title-light" data-i18n="seva.title">સેવા – ખુશીનો ઝરો</h2>
+      </div>
+      <div class="seva-quote-box">
+        <div class="seva-quote-mark">"</div>
+        <p class="seva-quote-text" data-i18n="seva.quote">"જો કોઈ પણ વ્યક્તિ મન, વચન, કાયાથી બીજાઓની ખુશી માટે ઉપયોગ
+          કરે, તો તેને ક્યારેય ખુશીની ઊણપ ન રહે."</p>
+        <div class="seva-quote-attr" data-i18n="seva.attr">— પૂજ્ય દાદાશ્રી</div>
+      </div>
+      <div class="seva-cards">
+        <div class="seva-card">
+          <div class="seva-card-icon">🙌</div>
+          <h3 data-i18n="seva.1t">ઇવેન્ટ્સમાં સેવા</h3>
+          <p data-i18n="seva.1d">શિબિર, ઉત્સવ અને સેશનમાં વૉલન્ટિયરિંગ — બીજાઓના સુખ માટે કાર્યરત રહેવું.</p>
+        </div>
+        <div class="seva-card">
+          <div class="seva-card-icon">👨‍👩‍👧</div>
+          <h3 data-i18n="seva.2t">ઘરમાં સેવા</h3>
+          <p data-i18n="seva.2d">દાદાશ્રીના મતે: "જો યુવાન પોતાના માતા-પિતાની સેવા કરે, તેને ક્યારેય આર્થિક તંગી ન
+            આવે."</p>
+        </div>
+        <div class="seva-card">
+          <div class="seva-card-icon">🌱</div>
+          <h3 data-i18n="seva.3t">સમાજ સેવા</h3>
+          <p data-i18n="seva.3d">સમાજમાં બીજાઓને મદદ કરવી — આથી મનની ખુશી શરૂ થાય છે અને સૌને ખુશી આપે છે.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACTIVITIES ===== -->
+  <section class="section" id="activities">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="act.tag">શું કરીએ છીએ</span>
+        <h2 class="section-title" data-i18n="act.title">પ્રવૃત્તિઓ અને ઇવેન્ટ્સ</h2>
+        <p class="section-desc" data-i18n="act.desc">YMHT ભાવનગરમાં દર સેશનમાં કંઈ ને કંઈ મજા-મસ્તી અને કાર્યક્રમ હોય
+          છે.</p>
+      </div>
+      <div class="act-bento">
+        <div class="act-card act-camp">
+          <div class="act-card-inner">
+            <div class="act-emoji">⛺</div>
+            <h3 data-i18n="act.1t">ઉનાળુ શિબિર</h3>
+            <p data-i18n="act.1d">વર્ષમાં એકવાર આયોજિત શિબિર — સાથે કેમ્પ, જ્ઞાન, પ્રકૃતિ અને યાદગાર અનુભવો!</p>
+          </div>
+        </div>
+        <div class="act-card act-cricket">
+          <div class="act-card-inner">
+            <div class="act-emoji">🏏</div>
+            <h3 data-i18n="act.2t">ક્રિકેટ અને રમત-ગમત</h3>
+            <p data-i18n="act.2d">ફ્રેન્ડલી ક્રિકેટ મેચ અને રમતો — ટીમ સ્પિરિટ અને આનંદ!</p>
+          </div>
+        </div>
+        <div class="act-card act-festival">
+          <div class="act-card-inner">
+            <div class="act-emoji">🎉</div>
+            <h3 data-i18n="act.3t">ઉત્સવ ઉજવણી</h3>
+            <p data-i18n="act.3d">ભારતીય ઉત્સવો સાથે મળીને ઉજવણી — નવરાત્રિ, દિવાળી અને બીજા રંગીન ઉત્સવો!</p>
+          </div>
+        </div>
+        <div class="act-card act-satsang">
+          <div class="act-card-inner">
+            <div class="act-emoji">🙏</div>
+            <h3 data-i18n="act.4t">સત્સંગ</h3>
+            <p data-i18n="act.4d">જિંદગીના સવાલોના જવાબ — આત્મિક માર્ગદર્શન સાથે ખુલ્લી ચર્ચા.</p>
+          </div>
+        </div>
+        <div class="act-card act-fun">
+          <div class="act-card-inner">
+            <div class="act-emoji">🎭</div>
+            <h3 data-i18n="act.5t">ધૂળ-ઉડ પ્રવૃત્તિ</h3>
+            <p data-i18n="act.5d">ગેમ્સ, ડ્રામા, સ્પર્ધા — દર સેશનમાં નવા રંગ અને ખુશી!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW TO JOIN ===== -->
+  <section class="section section-alt" id="join">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="join.tag">અમારી સાથે આવો</span>
+        <h2 class="section-title" data-i18n="join.title">કેવી રીતે જોડાશો?</h2>
+        <p class="section-desc" data-i18n="join.desc">જોડાવું ખૂબ સરળ છે — કોઈ ફોર્માલિટી નહીં, કોઈ ફી નહીં.</p>
+      </div>
+      <div class="join-steps">
+        <div class="join-step">
+          <div class="step-circle">1</div>
+          <div class="step-connector"></div>
+          <div class="step-body">
+            <h3 data-i18n="join.1t">📱 કૉલ અથવા વૉટ્સએપ કરો</h3>
+            <p data-i18n="join.1d">નીચેના નંબર પર કૉલ અથવા વૉટ્સએપ કરો. આગલી સેશનની તારીખ અને માહિતી મળશે.</p>
+          </div>
+        </div>
+        <div class="join-step">
+          <div class="step-circle">2</div>
+          <div class="step-connector"></div>
+          <div class="step-body">
+            <h3 data-i18n="join.2t">🛕 ત્રિમંદિર આવો</h3>
+            <p data-i18n="join.2d"><strong>ત્રિમંદિર, રંગોળી પાસે, ભાવનગર</strong> — ત્યાં જાઓ અને YMHT સેન્ટર વિશે
+              પૂછો. કોઈ ગાઈડ કરી આપશે.</p>
+          </div>
+        </div>
+        <div class="join-step">
+          <div class="step-circle">3</div>
+          <div class="step-body">
+            <h3 data-i18n="join.3t">🚶 સીધા સેશનમાં આવો</h3>
+            <p data-i18n="join.3d"><strong>ભગિની મંડળ, પારિમલ ચોક</strong> પર કોઈ પણ રવિવારે બપોરે ૨–૪ માં આવી જાઓ. કોઈ
+              એપોઈન્ટમેન્ટ જોઈતી નથી.</p>
+          </div>
+        </div>
+      </div>
+      <div class="join-eligibility">
+        <div class="je-icon">✅</div>
+        <div>
+          <h3 data-i18n="je.title">કોણ જોડાઈ શકે છે?</h3>
+          <p data-i18n="je.desc"><strong>ભાવનગર, નારી અને આસપાસના વિસ્તાર</strong>ના <strong>૧૩ થી ૨૧ વર્ષ</strong>ના
+            કોઈ પણ ભાઈ — ગમે ત્યારે — જોડાઈ શકે છે. કોઈ ફી નહીં, કોઈ અનુભવ જોઈતો નથી.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="cont.tag">સંપર્ક કરો</span>
+        <h2 class="section-title" data-i18n="cont.title">આજે જ સંપર્ક કરો</h2>
+        <p class="section-desc" data-i18n="cont.desc">કોઈ પણ સવાલ હોય — કૉલ કરો અથવા વૉટ્સએપ કરો. તરત જવાબ મળશે!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card contact-main">
+          <div class="cc-icon">📞</div>
+          <h3 data-i18n="cc1.title">કૉલ કરો</h3>
+          <p class="cc-person">મહાત્મા પરેશભાઈ રામણી</p>
+          <a href="tel:+919987982077" class="cc-num">9987982077</a>
+          <a href="tel:+919687978381" class="cc-num">9687978381</a>
+          <p class="cc-note" data-i18n="cc1.note">સવારે ૯ થી સાંજે ૮ સુધી ઉપલબ્ધ</p>
+        </div>
+        <div class="contact-card contact-wa">
+          <div class="cc-icon cc-icon-wa">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="white">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg>
+          </div>
+          <h3 data-i18n="cc2.title">વૉટ્સએપ સંદેશ કરો</h3>
+          <p data-i18n="cc2.desc">મેસેજ કરો — સવાલો માટે, સેશન માહિતી માટે અથવા જોડાવા માટે.</p>
+          <div class="cc-wa-btns">
+            <a href="https://wa.me/919987982077?text=YMHT%20%E0%AA%AD%E0%AA%BE%E0%AA%B5%E0%AA%A8%E0%AA%97%E0%AA%B0%20%E0%AA%B5%E0%AA%BF%E0%AA%B6%E0%AB%87%20%E0%AA%9C%E0%AA%BE%E0%AA%A3%E0%AA%B5%E0%AA%BE%20%E0%AA%AE%E0%AA%BE%E0%AA%97%E0%AB%81%E0%AA%82%20%E0%AA%9B%E0%AB%81%E0%AA%82." target="_blank"
+              rel="noopener" class="btn btn-wa">વૉટ્સએપ 9987982077</a>
+            <a href="https://wa.me/919687978381?text=YMHT%20%E0%AA%AD%E0%AA%BE%E0%AA%B5%E0%AA%A8%E0%AA%97%E0%AA%B0%20%E0%AA%B5%E0%AA%BF%E0%AA%B6%E0%AB%87%20%E0%AA%9C%E0%AA%BE%E0%AA%A3%E0%AA%B5%E0%AA%BE%20%E0%AA%AE%E0%AA%BE%E0%AA%97%E0%AB%81%E0%AA%82%20%E0%AA%9B%E0%AB%81%E0%AA%82." target="_blank"
+              rel="noopener" class="btn btn-wa">વૉટ્સએપ 9687978381</a>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon">📍</div>
+          <h3 data-i18n="cc3.title">સેશનની જગ્યા</h3>
+          <p class="cc-addr">ભગિની મંડળ,<br />પારિમલ ચોક,<br />ભાવનગર, ગુજરાત</p>
+          <a href="https://maps.google.com/?q=Parimal+Chowk+Bhavnagar" target="_blank" rel="noopener"
+            class="btn btn-outline-sm" data-i18n="cc3.maps">મેપ્સ પર ખોલો</a>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon">🛕</div>
+          <h3 data-i18n="cc4.title">ત્રિમંદિર પર મળો</h3>
+          <p data-i18n="cc4.desc"><strong>ત્રિમંદિર, રંગોળી પાસે, ભાવનગર</strong> — ત્યાં જાઓ અને YMHT સેન્ટર વિશે
+            પૂછો. અમારા સેવકો ગાઈડ કરી આપશે.</p>
+          <a href="https://maps.google.com/?q=Trimandir+Bhavnagar" target="_blank" rel="noopener"
+            class="btn btn-outline-sm" data-i18n="cc4.maps">ત્રિમંદિર મેપ્સ પર</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MOBILE BOTTOM CTA ===== -->
+  <div class="mobile-cta-bar" id="mobileCta">
+    <a href="tel:+919687978381" class="mcta-btn mcta-call">
+      <span>📞</span>
+      <span data-i18n="mcta.call">કૉલ</span>
+    </a>
+    <a href="https://wa.me/919687978381" target="_blank" rel="noopener" class="mcta-btn mcta-wa">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+      </svg>
+      <span data-i18n="mcta.wa">વૉટ્સએપ</span>
+    </a>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          <div class="logo-icon">
+            <svg width="34" height="34" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="20" fill="#FF6B00" />
+              <path d="M20 8 L24 14 H28 L24 20 H28 L20 32 L12 20 H16 L12 14 H16 Z" fill="white" opacity="0.92" />
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-main" style="color:#fff;">YMHT ભાવનગર</span>
+            <span class="logo-sub" style="color:rgba(255,255,255,0.55);" data-i18n="logo.sub">યંગ મહાત્મા</span>
+          </div>
+        </a>
+        <p class="footer-desc" data-i18n="footer.desc">દાદા ભગવાન ટ્રસ્ટ, અડાલજની ભાવનગર શાખા. ૧૩ થી ૨૧ વર્ષના યુવાનો
+          માટે આત્મિક માર્ગદર્શન, મૈત્રી અને આનંદ.</p>
+        <div class="footer-socials">
+          <a href="https://www.dadabhagwan.org" target="_blank" rel="noopener" class="footer-link">dadabhagwan.org</a>
+          <a href="https://youth.dadabhagwan.org" target="_blank" rel="noopener" class="footer-link">YMHT ગ્લોબલ</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.links.title">ઝડપી લિન્ક્સ</h4>
+        <ul>
+          <li><a href="#about" data-i18n="nav.about">અમારા વિશે</a></li>
+          <li><a href="#sessions" data-i18n="nav.sessions">સત્સંગ</a></li>
+          <li><a href="#seva" data-i18n="nav.seva">સેવા</a></li>
+          <li><a href="#activities" data-i18n="nav.activities">પ્રવૃત્તિઓ</a></li>
+          <li><a href="#join" data-i18n="nav.join">જોડાઓ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact.title">સંપર્ક</h4>
+        <p style="color:rgba(255,255,255,0.6);font-size:.85rem;margin-bottom:.5rem;">મહાત્મા પરેશભાઈ રામણી</p>
+        <a href="tel:+919987982077" class="footer-num">9987982077</a>
+        <a href="tel:+919687978381" class="footer-num">9687978381</a>
+        <div style="margin-top:1rem;display:flex;gap:.5rem;flex-wrap:wrap;">
+          <a href="https://wa.me/919987982077" target="_blank" rel="noopener" class="btn-wa-footer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg>
+            વૉટ્સએપ 1
+          </a>
+          <a href="https://wa.me/919687978381" target="_blank" rel="noopener" class="btn-wa-footer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+            </svg>
+            વૉટ્સએપ 2
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 YMHT ભાવનગર · <a href="https://www.dadabhagwan.org" target="_blank" rel="noopener">દાદા ભગવાન
+            ટ્રસ્ટ</a> · <a href="https://youth.dadabhagwan.org" target="_blank" rel="noopener">YMHT ગ્લોબલ</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
